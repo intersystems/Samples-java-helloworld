@@ -21,6 +21,14 @@
     </bytecodeTargetLevel>
   </component>
   <component name="CoverageDataManager" choice="3" />
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Database Driver - jdbc:IRIS://localhost:51773/SAMPLES" uuid="6a851459-d7b6-4cd6-82e1-7d8eb4d733be">
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.intersystems.jdbc.IRISDriver</jdbc-driver>
+      <jdbc-url>jdbc:IRIS://localhost:51773/SAMPLES</jdbc-url>
+    </data-source>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -321,11 +329,26 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SqlDialectMappings">
+    <file url="PROJECT" dialect="GenericSQL" />
+  </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="dataSourceStorageLocal">
+    <data-source name="Database Driver - jdbc:IRIS://localhost:51773/SAMPLES" uuid="6a851459-d7b6-4cd6-82e1-7d8eb4d733be">
+      <database-info product="InterSystems IRIS" version="InterSystems IRIS Version 2019.1.0.401 xDBC Protocol Version 57" jdbc-version="4.2" driver-name="InterSystems IRIS JDBC" driver-version="2018.2.0.999">
+        <extra-name-characters>%</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>SuperUser</user-name>
+      <introspection-schemas>:</introspection-schemas>
+    </data-source>
   </component>
   <component name="libraryTable">
     <library name="intersystems-jdbc-3.0.0">
