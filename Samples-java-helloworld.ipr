@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactManager">
+    <artifact type="jar" name="Samples-java-helloworld:jar">
+      <output-path>$PROJECT_DIR$/out/artifacts/Samples_java_helloworld_jar</output-path>
+      <root id="archive" name="Samples-java-helloworld.jar">
+        <element id="module-output" name="Samples-java-helloworld" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/intersystems/intersystems-jdbc/3.0.0/intersystems-jdbc-3.0.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/lib/intersystems-jdbc-3.0.0.jar" path-in-jar="/" />
+      </root>
+    </artifact>
+  </component>
   <component name="BuildJarProjectSettings">
     <option name="BUILD_JARS_ON_MAKE" value="false" />
   </component>
