@@ -3,8 +3,9 @@ This is a simple hello world example to show a JDBC connection to InterSystems I
 
 ## To run this code in InterSystems Learning Labs, AWS, GCP, or Azure
 1. Open Samples-java-helloworld/Simple/HelloWorld.java
-2. Comment out line 4 (we won't need the package declaration here)
-3. Edit line 14 to change the ip to "try-iris"
+2. Comment out line 4 (since we won't need the package declaration here)  
+	`//package com.intersystems.samples;`
+3. For AWS, GCP, or Azure ONLY: Edit line 14 to change the ip to "try-iris"
 4. In the terminal window type:  
 	`cd Samples-java-helloworld/simple`  
 	`javac -cp ".:intersystems-jdbc-3.0.0.jar" HelloWorld.java`  
