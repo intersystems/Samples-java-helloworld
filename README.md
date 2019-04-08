@@ -1,11 +1,11 @@
 # Samples-java-helloworld
 This is a simple hello world example to show a JDBC connection to InterSystems IRIS. For more information about using this sample, please see [documentation](https://irisdocs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=AB_idesetup).
 
-## To run this code in InterSystems Learning Labs, AWS, GCP, or Azure
+## To run this code in InterSystems Learning Labs or Evaluator Edition (on AWS, GCP, or Azure)
 1. Open Samples-java-helloworld/Simple/HelloWorld.java
 2. Comment out line 4 (since we won't need the package declaration here)  
 	`//package com.intersystems.samples;`
-3. For AWS, GCP, or Azure ONLY: Edit line 14 to change the ip to "try-iris"
+3. For AWS, GCP, or Azure ONLY: Edit line 14 to change the ip to "try-iris" (Please skip this step if using InterSystems Learning Labs)
 4. In the terminal window type:  
 	`cd Samples-java-helloworld/simple`  
 	`javac -cp ".:intersystems-jdbc-3.0.0.jar" HelloWorld.java`  
