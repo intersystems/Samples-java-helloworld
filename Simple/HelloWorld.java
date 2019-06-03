@@ -1,7 +1,7 @@
 /*
 * PURPOSE: Makes a connection to an instance of InterSystems IRIS Data Platform.
 */
-package com.intersystems.samples;
+//package com.intersystems.samples;
 
 import com.intersystems.jdbc.IRISDataSource;
 
