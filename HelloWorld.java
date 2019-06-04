@@ -14,7 +14,7 @@ public class HelloWorld {
 		int port = 51773;
 		String namespace = "USER";
 		String username = "SuperUser";
-		String password = "sys";
+		String password = "SYS";
 		try {
 			// Using IRISDataSource to connect
 			IRISDataSource ds = new IRISDataSource();
