@@ -1,7 +1,6 @@
 /*
 * PURPOSE: Makes a connection to an instance of InterSystems IRIS Data Platform.
 */
-//package com.intersystems.samples;
 
 import com.intersystems.jdbc.IRISDataSource;
 
@@ -15,7 +14,7 @@ public class HelloWorld {
 		int port = 51773;
 		String namespace = "USER";
 		String username = "SuperUser";
-		String password = "SYS";
+		String password = "sys";
 		try {
 			// Using IRISDataSource to connect
 			IRISDataSource ds = new IRISDataSource();
