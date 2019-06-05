@@ -8,6 +8,6 @@ In the integrated terminal window type:
 * `java -cp ".:intersystems-jdbc-3.0.0.jar" HelloWorld`  
 
 ## Keep Exploring
-* To see another example of using Java and InterSystems IRIS, see the [Java Multi-model example](../quickstarts-multimodel-java/README.md)
+* To see another example of using Java and InterSystems IRIS, see the [Java multi-model example](../quickstarts-multimodel-java/README.md).
 * Or, continue to work with the pre-loaded petstore data.
 
