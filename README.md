@@ -15,5 +15,5 @@ This is a simple hello world example to show a JDBC connection to InterSystems I
 1. Clone this repo
 2. Open the repo in your favorite Java IDE (such as Eclipse, IntelliJ, or NetBeans)
 3. Open Samples-java-helloworld/simple/HelloWorld.java and verify ip, password, port, and username are right. Update as necessary.
-4. Set up a classpath to intersystems-jdbc-3.0.0.jar
+4. Set up a classpath to intersystems-jdbc-3.2.0.jar
 5. Run HelloWorld.java
